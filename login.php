@@ -28,7 +28,6 @@ require __DIR__ . '/includes/header.php';
   <div class="auth-head">
     <span class="brand-mark big" aria-hidden="true">B</span>
     <h1>Sign in to <?= e(APP_NAME) ?></h1>
-    <p class="muted">Owners monitor every branch. Vendors open their branch's POS.</p>
   </div>
   <?php if ($error): ?><div class="flash flash-error" role="alert"><?= e($error) ?></div><?php endif; ?>
   <form method="post" autocomplete="on" class="stack">
