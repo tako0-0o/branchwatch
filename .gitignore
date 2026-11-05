@@ -1,0 +1,8 @@
+# real database passwords for a live host: never commit this file
+includes/config.local.php
+# editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
